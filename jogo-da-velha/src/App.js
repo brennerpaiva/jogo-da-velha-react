@@ -1,10 +1,15 @@
-import React from 'react'
-import './App.css';
+import React from 'react';
+import Sobre from './objects/Sobre';
+import './styles/settings/colors.css';
+import './styles/generic/reset.css';
+import './styles/elements/base.css';
+
+
 
 function App() {
-  return (
-    <a href="to-do" className='action'>Sobre</a>
-  );
+  return(
+    <Sobre/>
+  )
 }
 
 export default App;
