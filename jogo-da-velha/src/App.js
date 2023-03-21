@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Sobre from './objects/Sobre';
-import './styles/settings/colors.css';
-import './styles/generic/reset.css';
-import './styles/elements/base.css';
+import Logo from './objects/Logo';
+
 
 
 
 function App() {
   return(
-    <Sobre/>
-  )
+    <Fragment>
+      <Logo/>
+      <Sobre/>
+    </Fragment>
+  );
 }
 
 export default App;
