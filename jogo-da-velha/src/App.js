@@ -1,15 +1,9 @@
-import React, { Fragment } from 'react';
-import Sobre from './objects/Sobre';
-import Logo from './objects/Logo';
-import Menu from './objects/Menu';
+import React from 'react';
+import Header from './components/Header'
 
 function App() {
   return(
-    <Fragment>
-      <Logo/>
-      <Sobre/>
-      <Menu/>
-    </Fragment>
+    <Header/>
   );
 }
 
