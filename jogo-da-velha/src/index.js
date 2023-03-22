@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './styles/generic/reset.css';
 import './styles/elements/base.css';
 import './styles/settings/colors.css';
+import './styles/settings/spacing.css';
 import './index.css';
 
 import App from './App';

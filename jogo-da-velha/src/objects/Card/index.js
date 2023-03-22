@@ -1,9 +1,11 @@
-import React from "react";
+import React from 'react';
 import './styles.css'
 
 const Card = () => {
    return (
-        <p>Card</p>
+        <article className='card'>
+            Card
+        </article>
    )
 }
 
