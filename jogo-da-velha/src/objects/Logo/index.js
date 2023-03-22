@@ -4,7 +4,7 @@ import LogoCollabCode from '../../img/logo.png'
 
 const Logo = () => {
     return (
-        <img src={LogoCollabCode} alt="Logo"/>
+        <img src={LogoCollabCode} alt="Logo" className="logo"/>
     );
 }
 
