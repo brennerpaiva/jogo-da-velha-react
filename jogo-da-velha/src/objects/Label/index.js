@@ -4,7 +4,7 @@ import "./styles.css"
 const Label = (props) => {
     return (
       <>
-        <label htmlFor="">{props.content}</label>
+        <label htmlFor="" className="label">{props.content}</label>
       </>
     )
 }
