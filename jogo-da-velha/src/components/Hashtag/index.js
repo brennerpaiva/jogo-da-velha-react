@@ -5,6 +5,7 @@ import './styles.css'
 
 const Hashtag = () => {
     return (
+       <>
         <Card>
             <ul className='hashtag'>
                 <li className='item'><Player player="x"/></li>
@@ -20,6 +21,7 @@ const Hashtag = () => {
                 <li className='item'><Player player="x"/></li>
             </ul>
       </Card>
+      </> 
     )
 }
 
